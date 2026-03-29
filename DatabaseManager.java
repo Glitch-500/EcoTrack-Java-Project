@@ -5,3 +5,4 @@ public class DatabaseManager {
         System.out.println("Data Successfully Synced to MySQL: " + type + " - " + impact + "kg");
     }
 } 
+ 
