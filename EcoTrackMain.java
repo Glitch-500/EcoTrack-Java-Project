@@ -5,7 +5,7 @@ public class EcoTrackMain  {
     public static void main(String[] args)   {
         Scanner sc = new Scanner(System.in);
         ArrayList<Activity> logs = new ArrayList<>();
-        
+          
         EcoTipThread tips = new EcoTipThread();
         tips.setDaemon(true);
         tips.start(); 
