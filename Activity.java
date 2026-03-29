@@ -7,7 +7,7 @@ public abstract class Activity {
         this.quantity = quantity;
     }
 
-    public abstract double calculateCO2(); 
+    public abstract double  calculateCO2(); 
     
     public String getName() { return name; }
 }
