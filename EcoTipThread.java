@@ -7,5 +7,5 @@ public class EcoTipThread extends Thread {
                 Thread.sleep(15000); // Shows a tip every 15 seconds
             }
         } catch (InterruptedException e) { }
-    }
+    } 
 }
