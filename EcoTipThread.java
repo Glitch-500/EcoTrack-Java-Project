@@ -1,4 +1,4 @@
-public class EcoTipThread extends Thread {
+public class EcoTipThread extends Thread { 
     public void run() {
         String[] tips = {"Switch to LEDs!", "Unplug idle electronics.", "Walk for short distances."};
         try {
