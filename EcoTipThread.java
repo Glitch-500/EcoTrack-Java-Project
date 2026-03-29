@@ -6,6 +6,6 @@ public class EcoTipThread extends Thread {
                 System.out.println("\n[TIP]: " + tips[(int)(Math.random()*3)]);
                 Thread.sleep(15000); // Shows a tip every 15 seconds
             }
-        } catch (InterruptedException e) { }
+        } catch (InterruptedException e) {  }
     } 
 }
