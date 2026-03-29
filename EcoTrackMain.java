@@ -20,7 +20,7 @@ public class EcoTrackMain  {
                 System.out.print("Enter distance in km: ");
                 double km = sc.nextDouble();
                 Transportation t = new Transportation(km);
-                logs.add(t);
+                logs.add(t);  
                 DatabaseManager.saveToDB("Travel", t.calculateCO2());
             } else if(choice == 2) {
                 double total = 0;
