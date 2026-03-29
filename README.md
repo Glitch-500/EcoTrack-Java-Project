@@ -6,7 +6,7 @@ EcoTrack is a Java-based utility designed to solve the problem of "Estimation Fa
 
 Unlike basic calculators, this project uses a multi-layered Java architecture to ensure that tracking is interactive, persistent, and scalable, bridging the gap between daily habits and data-driven environmental awareness.
 
----
+--- 
 
 ## Core Java Concepts Implemented
 To satisfy the course evaluation criteria, this project implements the following technical modules:
