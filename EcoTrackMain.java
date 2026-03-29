@@ -8,7 +8,7 @@ public class EcoTrackMain  {
         
         EcoTipThread tips = new EcoTipThread();
         tips.setDaemon(true);
-        tips.start();
+        tips.start(); 
 
         System.out.println("=== ECOTRACK: SUSTAINABILITY ASSISTANT ===");
         
