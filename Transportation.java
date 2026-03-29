@@ -3,7 +3,7 @@ public class Transportation extends Activity {
         super("Car Travel", km);
     }
 
-    @Override
+    @Override 
     public double calculateCO2() {
         return quantity * 0.21; // 0.21kg CO2 per km
     }
